@@ -22,6 +22,7 @@ for num in user_numbers_list_1.copy():
     if num in user_numbers_list_2:
         user_numbers_list_1.remove(num)
 
+# вывод ответа
 print('Непересекающиеся числа из списков:')
 print(*user_numbers_list_1, sep=', ')
 
